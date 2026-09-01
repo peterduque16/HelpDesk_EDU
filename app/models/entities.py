@@ -14,4 +14,3 @@ class Ticket:
     requester_id: int
     assignee_id: Optional[int] = None
     status: TicketStatus = TicketStatus.OPEN 
-    
