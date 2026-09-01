@@ -13,4 +13,5 @@ class Ticket:
     priority: str
     requester_id: int
     assignee_id: Optional[int] = None
-    status: TicketStatus = TicketStatus.OPEN
+    status: TicketStatus = TicketStatus.OPEN 
+    
